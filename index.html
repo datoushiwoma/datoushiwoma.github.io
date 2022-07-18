@@ -25,41 +25,49 @@
         </audio> -->
 		<bgsound src="/assets/media/iknewilovedyou.mp3" autostart=true loop=infinite></bgsound>
 		<div id="code">
-			<span class="comments">##</span><br/>
+			<span class="comments"># 友情提示：绿色的是注释，黑色的是代码</span><br/>
 			<span class="comments"># I am a programmer,</span><br/>
-			<span class="comments"># so I write code to celebrate Valentine's Day in coder's way.</span><br/>
+			<span class="comments"># 我是个程序员，</span><br/>
+			<span class="comments"># so I write code to celebrate our wedding in coder's way.</span><br/>
+			<span class="comments"># 所以我以程序员的方式，写代码来庆祝我们的婚礼。</span><br/>
 			<span class="comments">##</span><br/>
 			i = Boy(<span class="string">"刘欢"</span>);<br/>
 			u = Girl(<span class="string">"张玉杰"</span>);<br/>
-			<span class="comments"># Oct 14, 2013, I meet you. </span><br/>
+			<span class="comments"># Jun 22, 2013, I meet you. </span><br/>
+			<span class="comments"># 2013年6月22日，我遇见了你。</span><br/>
 			i.meet(u)<br/>
-			<span class="comments"># Afterwards, I confessed to you. </span><br/>
-			i.confess(u)<br/>
-			<span class="comments"># Nov 5, 2018, You became my girlfriend.</span><br/>
+			<span class="comments"># Feb 14, 2018, You became my girlfriend.</span><br/>
+			<span class="comments"># 2018年2月14日，你成为我的女朋友。</span><br/>
 			u.accepted(i)<br/>
 			<span class="comments"># Since then, we spent harmony happiness life every day.</span><br/>
+			<span class="comments"># 从那以后，我们每天都过着和谐幸福的生活。</span><br/>
 			happy(u, i)<br/>
 			<span class="comments"># We enjoy studying together.</span><br/>
+			<span class="comments"># 我们喜欢一起学习。</span><br/>
 			study(u, i)<br/>
-			<span class="comments"># We enjoy cuisine together.</span><br/>
-			dine(u, i)<br/>
 			<span class="comments"># We enjoy appointment together.</span><br/>
+			<span class="comments"># 我们一起享受约会。</span><br/>
 			appoint(u, i)<br/>
 			<span class="comments"># We enjoy vacation together.</span><br/>
+			<span class="comments"># 我们一起享受假期。</span><br/>
 			vacation(u, i)<br/>
 			<span class="comments"># Sometimes there are a few conflicts between us.</span><br/>
+			<span class="comments"># 有时我们之间会有一些冲突。</span><br/>
 			conflict(u, i, sometimes=<span class="keyword">True</span>)<br/>
 			<span class="comments"># But we are getting more and more in harmony together.</span><br/>
+			<span class="comments"># 但我们在一起越来越和谐了。</span><br/>
 			u.in_harmony_with(i) <br/>
 			i.in_harmony_with(u) <br/>
 			<span class="comments"># You are the greatest love of my life.</span><br/>
+			<span class="comments"># 你是我一生中最爱的人。</span><br/>
 			while <span class="keyword">True</span>:<br/>
 			<span class="placeholder"></span><span class="keyword">if</span> u.with(i):<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>u = everything<br/>
 			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>everything = u<br/>
-			<span class="comments"># Waiting me marries you, we will be the happiest couple in the world.</span><br/>
-			i.marry(u, in_the_future=<span class="keyword">True</span>)<br/>
+			<span class="comments"># We're getting married today, we will be the happiest couple in the world.</span><br/>
+			<span class="comments"># 今天我们要结婚了，我们将是世界上最幸福的人。</span><br/>
+			i.marry(u, today=<span class="keyword">True</span>)<br/>
 			i.live_happily_forever_with(u)<br/>
 			<span class="comments"># I love you forever.</span><br/>
 		</div>
@@ -86,8 +94,8 @@
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
 	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-	together.setFullYear(2018, 10, 5);
-	together.setHours(15);
+	together.setFullYear(2018, 2, 14);
+	together.setHours(0);
 	together.setMinutes(0);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
